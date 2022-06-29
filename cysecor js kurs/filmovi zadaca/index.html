@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Movies by Mili</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="movies">
+        <div class="movie">
+          <div class="img">
+            <img
+              src="https://play-lh.googleusercontent.com/oGI1H9lJtLc3ba81On0tj_EcdpGFIISDpDusYK8ERURDUFVme_WTyOFujbF-HzwOqKJmZZB9UAv6Uq-K7Tc"
+              alt=""
+            />
+          </div>
+          <div class="description">
+            <h3>Venom</h3>
+            <p>Venom is good movie</p>
+            <span class="star on"></span>
+            <span class="star on"></span>
+            <span class="star on"></span>
+            <span class="star on"></span>
+            <span class="star half"></span>
+            <div class="btn-price">
+              <div class="price1">Price: $<span class="price">30</span></div>
+              <button class="watch-btn" onclick="watchMovie(this)">
+                Watch
+              </button>
+            </div>
+            <button class="again none" onclick="remove(this)">
+              Money Back
+            </button>
+          </div>
+        </div>
+        <div class="movie">
+          <div class="img">
+            <img
+              src="https://m.media-amazon.com/images/M/MV5BMjIxMjgxNTk0MF5BMl5BanBnXkFtZTgwNjIyOTg2MDE@._V1_FMjpg_UX1000_.jpg"
+              alt=""
+            />
+          </div>
+          <div class="description">
+            <h3>Wolf of Wall street</h3>
+            <p>Best movie</p>
+            <span class="star on"></span>
+            <span class="star on"></span>
+            <span class="star on"></span>
+            <span class="star on"></span>
+            <span class="star on"></span>
+            <div class="btn-price">
+              <div class="price1">Price: $<span class="price">40</span></div>
+              <button class="watch-btn" onclick="watchMovie(this)">
+                Watch
+              </button>
+            </div>
+            <button class="again none" onclick="remove(this)">
+              Money Back
+            </button>
+          </div>
+        </div>
+        <div class="movie">
+          <div class="img">
+            <img
+              src="https://terrigen-cdn-dev.marvel.com/content/prod/1x/avengersendgame_lob_crd_05.jpg"
+              alt=""
+            />
+          </div>
+          <div class="description">
+            <h3>Avengers</h3>
+            <p>Avengers are back</p>
+            <span class="star on"></span>
+            <span class="star on"></span>
+            <span class="star on"></span>
+            <span class="star half"></span>
+            <span class="star"></span>
+            <div class="btn-price">
+              <div class="price1">Price: $<span class="price">25</span></div>
+              <button class="watch-btn" onclick="watchMovie(this)">
+                Watch
+              </button>
+            </div>
+          </div>
+          <button class="again none" onclick="remove(this)">Money Back</button>
+        </div>
+        <div class="movie">
+          <div class="img">
+            <img
+              src="https://m.media-amazon.com/images/M/MV5BMzExNDg0MDk1M15BMl5BanBnXkFtZTgwNzE1Mjg0MDI@._V1_.jpg"
+              alt=""
+            />
+          </div>
+          <div class="description">
+            <h3>Founder</h3>
+            <p>Inspirational movie</p>
+            <span class="star on"></span>
+            <span class="star on"></span>
+            <span class="star on"></span>
+            <span class="star on"></span>
+            <span class="star on"></span>
+            <div class="btn-price">
+              <div class="price1">Price: $<span class="price">80</span></div>
+              <button class="watch-btn" onclick="watchMovie(this)">
+                Watch
+              </button>
+            </div>
+          </div>
+          <button class="again none" onclick="remove(this)">Money Back</button>
+        </div>
+      </div>
+      <div class="total"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
